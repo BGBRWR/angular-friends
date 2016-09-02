@@ -8,10 +8,10 @@ angular.module('app').controller('FriendController', function($scope, $http){
   // 		}, function(response) {
   // 			console.log('error getting data');
   // 		});
-  //   $scope.sortUpDown = [
-  //     {name: "Descending", value: true },
-  //     {name: 'Ascending', value: false }
-  //   ];
+    $scope.sortUpDown = [
+      {name: "Descending", value: true },
+      {name: 'Ascending', value: false }
+    ];
     // friendz = $scope.friends;
 
 
